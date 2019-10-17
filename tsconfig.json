@@ -16,6 +16,20 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ObjectsAndArraysPipes": [
+        "dist/objects-and-arrays-pipes"
+      ],
+      "ObjectsAndArraysPipes/*": [
+        "dist/objects-and-arrays-pipes/*"
+      ],
+      "objects-and-arrays-pipes": [
+        "dist/objects-and-arrays-pipes"
+      ],
+      "objects-and-arrays-pipes/*": [
+        "dist/objects-and-arrays-pipes/*"
+      ]
+    }
   }
 }
